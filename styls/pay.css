@@ -1,0 +1,102 @@
+body {
+  font-family: "Belanosima", sans-serif;
+  line-height: 1.6;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: rgb(20, 1, 60);
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#paymentDetails {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  background-color: #ced3f162;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+#groupName {
+  font-weight: bold;
+  color: #810662;
+}
+
+#groupMembersContainer {
+  margin-top: 10px;
+}
+
+#groupMembers {
+  margin-top: 10px;
+  text-align: center;
+  color: #550f70;
+  font-weight: bolder;
+}
+
+#groupMembers label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.payeeCheckboxContainer {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.expensesForm {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: rgb(248, 210, 248);
+  border-radius: 5%;
+}
+
+.payerSelect {
+  padding: 5px;
+  width: 150px;
+}
+
+.selectPayeesContainer {
+  margin-top: 10px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  width: 150px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #25864d;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #0e552d;
+}
+
+.payeePaymentRow {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fdfefe;
+  text-align: left;
+}
+
+.overallDataRow {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fdfefe;
+}

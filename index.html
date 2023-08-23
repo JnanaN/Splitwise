@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split wise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styls/styles.css">
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+    <h1>Create Group</h1>
+    <div id="groupForm">
+        <label for="groupName">Group Name:</label>
+        <input type="text" id="groupName" placeholder="Enter group name">
+        <button id="addGroupButton">Add Members</button>
+        <div id="namesContainer"></div>
+        <button id="submitButton">Submit</button>
+        <button id="cancelButton">Cancel</button>
+    </div>
+
+    <!-- Display group name as a clickable link -->
+    <div id="groupList"></div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
